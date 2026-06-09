@@ -17,6 +17,13 @@
                     </Collection>
                 </Annotation>
             </Annotations>
+            <Annotations Target="NorthwindModel.Order_Details_Extended">
+                <Annotation Term="UI.SelectionFields">
+                    <Collection>
+                        <PropertyPath>Quantity</PropertyPath>
+                    </Collection>
+                </Annotation>
+            </Annotations>
         </Schema>
     </edmx:DataServices>
 </edmx:Edmx>
